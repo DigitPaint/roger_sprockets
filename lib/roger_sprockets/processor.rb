@@ -8,7 +8,7 @@ module RogerSprockets
       @options = {
         sprockets_environment: ::Sprockets::Environment.new,
         build_files: ["html/javascripts/site.js"],
-        load_paths: ["html/javascripts"],
+        load_paths: ["html/javascripts", "bower_components"],
         clean: true
       }.update(options)
     end

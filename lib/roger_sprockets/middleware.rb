@@ -4,7 +4,7 @@ module RogerSprockets
       @app = app
       defaults = {
         sprockets_environment: ::Sprockets::Environment.new,
-        load_paths: ["html/javascripts"]
+        load_paths: ["html/javascripts", "bower_components"]
       }
 
       # Use the resolver to translate urls
