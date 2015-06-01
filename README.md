@@ -32,7 +32,7 @@ end
 For making a release
 ```
 mockup.release do |r|    
-    r.use(RogerSprockets::Processors)
+    r.use(RogerSprockets::Processor)
 end
 ```
 
